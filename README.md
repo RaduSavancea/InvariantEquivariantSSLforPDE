@@ -66,7 +66,7 @@ Time steps are stacked along the channel dimension and processed jointly by the 
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Encoder
 - ResNet-18 backbone
