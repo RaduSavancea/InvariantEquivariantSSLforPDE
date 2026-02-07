@@ -51,12 +51,6 @@ We implement and compare three symmetry-aware SSL approaches:
 
 ### Input Representation
 
-Each SSL input has shape:
-
-\[
-x \in \mathbb{R}^{(5 \times T) \times H \times W}
-\]
-
 Channels correspond to:
 - spatial coordinates `(x, y)`
 - time `t`
