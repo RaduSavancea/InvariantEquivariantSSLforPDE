@@ -6,7 +6,7 @@ This repository contains the code for the project
 We study how **symmetry-aware self-supervised learning (SSL)** can be used to learn meaningful representations from **spatio-temporal PDE simulations**, with a focus on **2D incompressible Navier–Stokes equations**.  
 In particular, we compare **invariant**, **equivariant**, and **hybrid invariant–equivariant** SSL strategies and evaluate them on downstream physical tasks.
 
----
+
 
 ##  Motivation
 
@@ -15,7 +15,6 @@ Standard SSL methods often enforce strict invariance to data augmentations, whic
 
 This project investigates how explicitly incorporating **invariance and equivariance** into SSL objectives affects representation quality and downstream performance.
 
----
 
 ## Methods Overview
 
@@ -40,7 +39,7 @@ We implement and compare three symmetry-aware SSL approaches:
 - Different augmentations and losses applied to each subspace
 - Balances robustness and expressivity
 
----
+
 
 ## Dataset
 
@@ -58,7 +57,6 @@ Channels correspond to:
 
 Time steps are stacked along the channel dimension and processed jointly by the encoder.
 
----
 
 ## Model Architecture
 
@@ -72,7 +70,7 @@ Time steps are stacked along the channel dimension and processed jointly by the 
 - Applied only for invariant objectives (VICReg)
 - Two-layer MLP with batch normalization
 
----
+
 
 ## Physical Data Augmentations
 
@@ -84,7 +82,7 @@ Lie point symmetries of the Navier–Stokes equations are implemented via a Lie�
 
 Augmentations are carefully selected to preserve physical validity.
 
----
+
 
 ## Downstream Evaluation Tasks
 
@@ -104,7 +102,7 @@ All evaluations use **frozen encoders**.
 - **Model:** linear probe on frozen encoder embeddings
 - **Metric:** MSE / RMSE
 
----
+
 
 ## Repository Structure
 
