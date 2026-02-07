@@ -1,7 +1,7 @@
 # Equivariant and Invariant Self-Supervised Learning for PDEs
 
 This repository contains the code for the project  
-**“Equivariant and Invariant Self-Supervised Learning for Partial Differential Equations.”**
+**Equivariant and Invariant Self-Supervised Learning for Partial Differential Equations**
 
 We study how **symmetry-aware self-supervised learning (SSL)** can be used to learn meaningful representations from **spatio-temporal PDE simulations**, with a focus on **2D incompressible Navier–Stokes equations**.  
 In particular, we compare **invariant**, **equivariant**, and **hybrid invariant–equivariant** SSL strategies and evaluate them on downstream physical tasks.
