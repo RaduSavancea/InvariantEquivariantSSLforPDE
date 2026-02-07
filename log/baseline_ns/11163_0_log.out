@@ -1,0 +1,5 @@
+submitit INFO (2025-10-09 14:11:02,129) - Starting with JobEnvironment(job_id=11163, hostname=aisa-gpuB01.ki.uni-stuttgart.de, local_rank=0(4), node=0(1), global_rank=0(4))
+submitit INFO (2025-10-09 14:11:02,129) - Loading pickle: /mnt/nfs/home/ac148019/SSLForPDEs/log/baseline_ns/11163_submitted.pkl
+Process group: 4 tasks, rank: 0
+Namespace(trotter_steps=2, trotter_order=2, tsl_t=0.0, tsl_x=1.0, tsl_y=1.0, scale=0.1, rot=0.1, lin_x=0.01, lin_y=0.01, quad_x=0.01, quad_y=0.01, crop_x=128, crop_y=128, crop_t=16, dataset_size=26624, mlp='512-512-512', no_proj=False, target_dim=1, epochs=100, batch_size=64, batch_size_eval=128, ssl_lr=0.0003, eval_lr=0.0007, wd=1e-06, sim_coeff=25.0, std_coeff=25.0, cov_coeff=1.0, num_workers=10, data_root='/tmp/dataset', logging_folder='log', exp_name='baseline_ns', supervised_only=0, slurm_partition='slowlane', slurm_gpus=4, slurm_nodes=1, slurm_timeout=2880)
+submitit ERROR (2025-10-09 14:11:04,485) - Submitted job triggered an exception

@@ -1,0 +1,40 @@
+/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/plugins.py:24: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+submitit ERROR (2025-10-09 14:00:34,508) - Submitted job triggered an exception
+Traceback (most recent call last):
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/_submit.py", line 11, in <module>
+    submitit_main()
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/submission.py", line 76, in submitit_main
+    process_job(args.folder)
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/submission.py", line 69, in process_job
+    raise error
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/submission.py", line 55, in process_job
+    result = delayed.result()
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/utils.py", line 137, in result
+    self._result = self.function(*self.args, **self.kwargs)
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 529, in __call__
+    self._setup_gpu_args()
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 551, in _setup_gpu_args
+    PDETrainer._exec_wrapper(gpu, self.args, self.num_gpus_per_node, world_size, dist_url)
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 416, in _exec_wrapper
+    cls.exec(*args, **kwargs)
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 421, in exec
+    trainer.train()
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 256, in train
+    train_loader = get_loader_ns(
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/utils.py", line 183, in get_loader_ns
+    dataset = NSDataset(data_root, strengths, steps, order, mode=mode, crop_size=crop_size,size=dataset_size)
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/utils.py", line 143, in __init__
+    self.h5_files.append(h5py.File(str(file), 'r'))
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/h5py/_hl/files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/h5py/_hl/files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 56, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 57, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+OSError: Unable to synchronously open file (truncated file: eof = 96, sblock->base_addr = 0, stored_eof = 2048)

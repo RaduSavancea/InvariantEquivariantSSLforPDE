@@ -1,0 +1,1 @@
+/mnt/nfs/home/ac148019/SSLForPDEs/log/baseline_ns/11166_submission.sh

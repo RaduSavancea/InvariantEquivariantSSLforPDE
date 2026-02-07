@@ -1,0 +1,150 @@
+submitit INFO (2025-10-09 14:54:23,986) - Starting with JobEnvironment(job_id=11171, hostname=aisa-gpuB01.ki.uni-stuttgart.de, local_rank=0(4), node=0(1), global_rank=0(4))
+submitit INFO (2025-10-09 14:54:23,986) - Loading pickle: /mnt/nfs/home/ac148019/SSLForPDEs/log/baseline_ns/11171_submitted.pkl
+Process group: 4 tasks, rank: 0
+Namespace(trotter_steps=2, trotter_order=2, tsl_t=0.0, tsl_x=1.0, tsl_y=1.0, scale=0.1, rot=0.1, lin_x=0.01, lin_y=0.01, quad_x=0.01, quad_y=0.01, crop_x=128, crop_y=128, crop_t=16, dataset_size=26624, mlp='512-512-512', no_proj=False, target_dim=1, epochs=100, batch_size=64, batch_size_eval=128, ssl_lr=0.0003, eval_lr=0.0007, wd=1e-06, sim_coeff=25.0, std_coeff=25.0, cov_coeff=1.0, num_workers=10, data_root='/tmp/dataset', logging_folder='log', exp_name='baseline_ns', supervised_only=0, slurm_partition='slowlane', slurm_gpus=4, slurm_nodes=1, slurm_timeout=2880)
+Evaluating coefficient in NS...
+=> Log: {'Loss/baseline_eval_train': 0.0031852475367486477, 'Loss/baseline_eval_test': 0.006505762040615082, 'Loss/prediction_eval_train': 0.06654150784015656, 'Loss/prediction_eval_test': 0.0469293624162674}
+epoch 0
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.11267852783203, 'Relative time per epoch': 361, 'Learning rate': 0.0003, 'Epoch': 0, 'Loss/prediction_eval_train': 0.006250312551856041, 'Loss/prediction_eval_test': 0.00673326626420021}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 1
+epoch 2
+epoch 3
+epoch 4
+epoch 5
+epoch 6
+epoch 7
+epoch 8
+epoch 9
+epoch 10
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.158018112182617, 'Relative time per epoch': 2479, 'Learning rate': 0.0003, 'Epoch': 10, 'Loss/prediction_eval_train': 0.007650506682693958, 'Loss/prediction_eval_test': 0.006472745537757873}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 11
+epoch 12
+epoch 13
+epoch 14
+epoch 15
+epoch 16
+epoch 17
+epoch 18
+epoch 19
+epoch 20
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.103492736816406, 'Relative time per epoch': 4552, 'Learning rate': 0.0003, 'Epoch': 20, 'Loss/prediction_eval_train': 0.007492636330425739, 'Loss/prediction_eval_test': 0.005578751862049103}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 21
+epoch 22
+epoch 23
+epoch 24
+epoch 25
+epoch 26
+epoch 27
+epoch 28
+epoch 29
+epoch 30
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 21.983448028564453, 'Relative time per epoch': 6605, 'Learning rate': 0.0003, 'Epoch': 30, 'Loss/prediction_eval_train': 0.005507147870957851, 'Loss/prediction_eval_test': 0.007901021838188171}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 31
+epoch 32
+epoch 33
+epoch 34
+epoch 35
+epoch 36
+epoch 37
+epoch 38
+epoch 39
+epoch 40
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.093395233154297, 'Relative time per epoch': 8770, 'Learning rate': 0.0003, 'Epoch': 40, 'Loss/prediction_eval_train': 0.00707054790109396, 'Loss/prediction_eval_test': 0.0069685295224189755}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 41
+epoch 42
+epoch 43
+epoch 44
+epoch 45
+epoch 46
+epoch 47
+epoch 48
+epoch 49
+epoch 50
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.073970794677734, 'Relative time per epoch': 10924, 'Learning rate': 0.0003, 'Epoch': 50, 'Loss/prediction_eval_train': 0.006388756446540356, 'Loss/prediction_eval_test': 0.007904133200645447}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 51
+epoch 52
+epoch 53
+epoch 54
+epoch 55
+epoch 56
+epoch 57
+epoch 58
+epoch 59
+epoch 60
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.013408660888672, 'Relative time per epoch': 12930, 'Learning rate': 0.0003, 'Epoch': 60, 'Loss/prediction_eval_train': 0.006562486756592989, 'Loss/prediction_eval_test': 0.005759231373667717}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 61
+epoch 62
+epoch 63
+epoch 64
+epoch 65
+epoch 66
+epoch 67
+epoch 68
+epoch 69
+epoch 70
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.0095157623291, 'Relative time per epoch': 15012, 'Learning rate': 0.0003, 'Epoch': 70, 'Loss/prediction_eval_train': 0.004539182409644127, 'Loss/prediction_eval_test': 0.006861533969640732}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 71
+epoch 72
+epoch 73
+epoch 74
+epoch 75
+epoch 76
+epoch 77
+epoch 78
+epoch 79
+epoch 80
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.000410079956055, 'Relative time per epoch': 17127, 'Learning rate': 0.0003, 'Epoch': 80, 'Loss/prediction_eval_train': 0.007268456742167473, 'Loss/prediction_eval_test': 0.0077619269490242}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 81
+epoch 82
+epoch 83
+epoch 84
+epoch 85
+epoch 86
+epoch 87
+epoch 88
+epoch 89
+epoch 90
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 21.994495391845703, 'Relative time per epoch': 19166, 'Learning rate': 0.0003, 'Epoch': 90, 'Loss/prediction_eval_train': 0.006357199512422085, 'Loss/prediction_eval_test': 0.0063130341470241545}
+=> Saved model at:  log/baseline_ns/model.pth 
+
+epoch 91
+epoch 92
+epoch 93
+epoch 94
+epoch 95
+epoch 96
+epoch 97
+epoch 98
+epoch 99
+Evaluating coefficient in NS...
+=> Log: {'Loss/vicreg': 22.09868621826172, 'Relative time per epoch': 21140, 'Learning rate': 0.0003, 'Epoch': 99, 'Loss/prediction_eval_train': 0.00425589457154274, 'Loss/prediction_eval_test': 0.0058858092874288555}
+submitit INFO (2025-10-09 20:49:21,170) - Job completed successfully
+submitit INFO (2025-10-09 20:49:21,171) - Exiting after successful completion
