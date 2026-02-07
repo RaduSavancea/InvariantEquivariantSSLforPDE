@@ -1,0 +1,34 @@
+Purging modules and activating Conda environment...
+/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/core/plugins.py:24: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Traceback (most recent call last):
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 594, in <module>
+    main(args)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 586, in main
+    run_submitit(args)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 576, in run_submitit
+    dist_url = get_init_file().as_uri()
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/pathlib.py", line 690, in as_uri
+    raise ValueError("relative path can't be expressed as a file URI")
+ValueError: relative path can't be expressed as a file URI
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3550389
+Cluster: hk
+User/Group: st_ac148019/hk-project-pai00052
+Account: hk-project-pai00052
+State: FAILED (exit code 1)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0713
+CPU Utilized: 00:00:06
+CPU Efficiency: 0.06% of 02:34:32 core-walltime
+Job Wall-clock time: 00:01:01
+Starttime: Tue Oct  7 15:20:04 2025
+Endtime: Tue Oct  7 15:21:05 2025
+Memory Utilized: 672.52 MB
+Memory Efficiency: 0.53% of 124.00 GB (124.00 GB/node)
+Energy Consumed: 23937 Joule / 6.64916666666667 Watthours
+Average node power draw: 392.409836065574 Watt

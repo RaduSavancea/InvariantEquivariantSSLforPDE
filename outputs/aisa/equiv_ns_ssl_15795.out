@@ -1,0 +1,8 @@
+==================================================
+Job name: equiv_ns_ssl
+Job ID:   15795
+Node:     aisa-gpuB02.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/easybuild/software/Anaconda3/2024.02-1/bin/python

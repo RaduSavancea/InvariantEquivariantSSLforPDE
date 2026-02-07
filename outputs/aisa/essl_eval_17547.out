@@ -1,0 +1,24 @@
+==================================================
+Job name: essl_eval
+Job ID:   17547
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Eval Equiv
+---
+Started at Wed Jan 28 03:28:17 PM CET 2026
+---
+Starting E-SSL Eval Equiv
+---
+Started at Wed Jan 28 03:28:17 PM CET 2026

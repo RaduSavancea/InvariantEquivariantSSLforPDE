@@ -1,0 +1,8 @@
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/essl_Eval.py", line 60, in <module>
+    g_norm = g[:, VALID_DIMS] / STRENGTHS[VALID_DIMS]
+IndexError: The shape of the mask [9] at index 0 does not match the shape of the indexed tensor [64, 5] at index 1

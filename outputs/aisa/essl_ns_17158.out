@@ -1,0 +1,27 @@
+==================================================
+Job name: essl_ns
+Job ID:   17158
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Navier–Stokes future-state prediction
+---
+Started at Mon Jan 26 11:37:13 AM CET 2026
+---
+Starting E-SSL + regression training
+---
+Started at Mon Jan 26 11:37:13 AM CET 2026
+Equivariance Evaluation
+Mean ||ĝ − g|| = 1.160493
+Finished at Mon Jan 26 11:38:43 AM CET 2026

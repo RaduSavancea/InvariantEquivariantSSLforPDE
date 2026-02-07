@@ -1,0 +1,28 @@
+Purging modules and activating Conda environment...
+Traceback (most recent call last):
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 22, in <module>
+    from utils import log_stats, log, off_diagonal,get_loader_ns, get_eval_loader_ns, RangeSigmoid
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/utils.py", line 13, in <module>
+    import torchvision
+ModuleNotFoundError: No module named 'torchvision'
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3539607
+Cluster: hk
+User/Group: st_ac148019/hk-project-pai00052
+Account: hk-project-pai00052
+State: FAILED (exit code 1)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0802
+CPU Utilized: 00:00:03
+CPU Efficiency: 0.05% of 01:31:12 core-walltime
+Job Wall-clock time: 00:00:36
+Starttime: Fri Oct  3 16:19:30 2025
+Endtime: Fri Oct  3 16:20:06 2025
+Memory Utilized: 482.38 MB
+Memory Efficiency: 0.38% of 124.00 GB (124.00 GB/node)
+Energy Consumed: 5040 Joule / 1.4 Watthours
+Average node power draw: 140 Watt

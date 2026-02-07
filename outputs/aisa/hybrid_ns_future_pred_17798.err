@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/Next_Step_hybrid.py", line 165, in <module>
+    solver = train_timestep(encoder)
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/Next_Step_hybrid.py", line 81, in train_timestep
+    loader = get_loader_ns(
+TypeError: get_loader_ns() missing 1 required positional argument: 'dataset_size'

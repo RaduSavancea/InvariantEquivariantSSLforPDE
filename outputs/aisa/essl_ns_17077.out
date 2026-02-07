@@ -1,0 +1,93 @@
+==================================================
+Job name: essl_ns
+Job ID:   17077
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Navier–Stokes future-state prediction
+---
+Started at Sun Jan 25 10:41:27 PM CET 2026
+---
+Starting E-SSL + regression training
+---
+Started at Sun Jan 25 10:41:27 PM CET 2026
+[E-SSL] Epoch 0 Loss: 90.7033
+[E-SSL] Epoch 1 Loss: 48.5037
+[E-SSL] Epoch 2 Loss: 48.3540
+[E-SSL] Epoch 3 Loss: 48.3117
+[E-SSL] Epoch 4 Loss: 48.2874
+[E-SSL] Epoch 5 Loss: 48.2653
+[E-SSL] Epoch 6 Loss: 48.2548
+[E-SSL] Epoch 7 Loss: 48.2476
+[E-SSL] Epoch 8 Loss: 48.2420
+[E-SSL] Epoch 9 Loss: 48.2341
+[E-SSL] Epoch 10 Loss: 48.2322
+[E-SSL] Epoch 11 Loss: 48.2235
+[E-SSL] Epoch 12 Loss: 48.2225
+[E-SSL] Epoch 13 Loss: 48.2238
+[E-SSL] Epoch 14 Loss: 48.2148
+[E-SSL] Epoch 15 Loss: 48.2134
+[E-SSL] Epoch 16 Loss: 48.2110
+[E-SSL] Epoch 17 Loss: 48.2091
+[E-SSL] Epoch 18 Loss: 48.2050
+[E-SSL] Epoch 19 Loss: 48.2050
+[E-SSL] Epoch 20 Loss: 48.2034
+[E-SSL] Epoch 21 Loss: 48.2021
+[E-SSL] Epoch 22 Loss: 48.1969
+[E-SSL] Epoch 23 Loss: 48.1971
+[E-SSL] Epoch 24 Loss: 48.1963
+[E-SSL] Epoch 25 Loss: 48.1930
+[E-SSL] Epoch 26 Loss: 48.1966
+[E-SSL] Epoch 27 Loss: 48.1928
+[E-SSL] Epoch 28 Loss: 48.1901
+[E-SSL] Epoch 29 Loss: 48.1875
+Saved backbone encoder to encoder_essl.pt
+[REG] Epoch 0 MSE: 0.322134
+[REG] Epoch 1 MSE: 0.082433
+[REG] Epoch 2 MSE: 0.103857
+[REG] Epoch 3 MSE: 0.018010
+[REG] Epoch 4 MSE: 0.043027
+[REG] Epoch 5 MSE: 0.018977
+[REG] Epoch 6 MSE: 0.015812
+[REG] Epoch 7 MSE: 0.015625
+[REG] Epoch 8 MSE: 0.010698
+[REG] Epoch 9 MSE: 0.012588
+[REG] Epoch 10 MSE: 0.009541
+[REG] Epoch 11 MSE: 0.010332
+[REG] Epoch 12 MSE: 0.008346
+[REG] Epoch 13 MSE: 0.009084
+[REG] Epoch 14 MSE: 0.007476
+[REG] Epoch 15 MSE: 0.008565
+[REG] Epoch 16 MSE: 0.007979
+[REG] Epoch 17 MSE: 0.008293
+[REG] Epoch 18 MSE: 0.008101
+[REG] Epoch 19 MSE: 0.007888
+[REG] Epoch 20 MSE: 0.007605
+[REG] Epoch 21 MSE: 0.007951
+[REG] Epoch 22 MSE: 0.007697
+[REG] Epoch 23 MSE: 0.007107
+[REG] Epoch 24 MSE: 0.007128
+[REG] Epoch 25 MSE: 0.007211
+[REG] Epoch 26 MSE: 0.007192
+[REG] Epoch 27 MSE: 0.007058
+[REG] Epoch 28 MSE: 0.007193
+[REG] Epoch 29 MSE: 0.006819
+Saved regression head to regression_head.pt
+=================================
+Regression Head Evaluation (TEST)
+MSE  = 0.007877
+RMSE = 0.088753
+R²   = -0.8468
+=================================
+Finished at Mon Jan 26 04:05:22 AM CET 2026

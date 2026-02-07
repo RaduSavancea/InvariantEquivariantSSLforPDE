@@ -1,0 +1,60 @@
+==================================================
+Job name: kinetic_eval
+Job ID:   17640
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Kinetic
+---
+Started at Thu Jan 29 10:19:33 PM CET 2026
+
+===== Training KE regression head =====
+[KE REG] Epoch 0 | MSE 849523.475000
+[KE REG] Epoch 1 | MSE 874491.362500
+[KE REG] Epoch 2 | MSE 872841.337500
+[KE REG] Epoch 3 | MSE 846021.050000
+[KE REG] Epoch 4 | MSE 883396.200000
+[KE REG] Epoch 5 | MSE 859381.100000
+[KE REG] Epoch 6 | MSE 894486.475000
+[KE REG] Epoch 7 | MSE 825396.200000
+[KE REG] Epoch 8 | MSE 883139.512500
+[KE REG] Epoch 9 | MSE 854676.162500
+[KE REG] Epoch 10 | MSE 856890.675000
+[KE REG] Epoch 11 | MSE 865075.487500
+[KE REG] Epoch 12 | MSE 881879.737500
+[KE REG] Epoch 13 | MSE 818217.925000
+[KE REG] Epoch 14 | MSE 899527.825000
+[KE REG] Epoch 15 | MSE 876427.500000
+[KE REG] Epoch 16 | MSE 819380.987500
+[KE REG] Epoch 17 | MSE 866602.925000
+[KE REG] Epoch 18 | MSE 850600.025000
+[KE REG] Epoch 19 | MSE 902496.687500
+[KE REG] Epoch 20 | MSE 846645.712500
+[KE REG] Epoch 21 | MSE 818972.862500
+[KE REG] Epoch 22 | MSE 894419.025000
+[KE REG] Epoch 23 | MSE 841124.375000
+[KE REG] Epoch 24 | MSE 884147.225000
+[KE REG] Epoch 25 | MSE 786299.725000
+[KE REG] Epoch 26 | MSE 835316.700000
+[KE REG] Epoch 27 | MSE 824283.437500
+[KE REG] Epoch 28 | MSE 885403.062500
+[KE REG] Epoch 29 | MSE 911421.875000
+
+Evaluating KE regression (TEST) 
+
+Mean Kinetic Energy Regression (TEST)
+MSE  = 849894.625000
+RMSE = 921.897278
+R²   = -4.5062
+Finished at Thu Jan 29 10:21:56 PM CET 2026

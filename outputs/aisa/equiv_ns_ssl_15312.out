@@ -1,0 +1,42 @@
+==================================================
+Job name: equiv_ns_ssl
+Job ID:   15312
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting equivariant Navier–Stokes SSL training
+---
+[Epoch 0] SSL loss: 14.5701
+[Epoch 1] SSL loss: 14.0152
+[Epoch 2] SSL loss: 13.7611
+[Epoch 3] SSL loss: 13.3604
+[Epoch 4] SSL loss: 13.1392
+[Epoch 5] SSL loss: 13.0776
+[Epoch 6] SSL loss: 12.7638
+[Epoch 7] SSL loss: 12.5913
+[Epoch 8] SSL loss: 12.4945
+[Epoch 9] SSL loss: 12.3243
+[Epoch 10] SSL loss: 12.2935
+[Epoch 11] SSL loss: 12.3305
+[Epoch 12] SSL loss: 12.2020
+[Epoch 13] SSL loss: 12.1800
+[Epoch 14] SSL loss: 12.1939
+[Epoch 15] SSL loss: 12.0456
+[Epoch 16] SSL loss: 12.0516
+[Epoch 17] SSL loss: 12.2365
+[Epoch 18] SSL loss: 11.9730
+[Epoch 19] SSL loss: 12.0192
+[Epoch 20] SSL loss: 11.9591
+[Epoch 21] SSL loss: 11.7899
+[Epoch 22] SSL loss: 11.8103

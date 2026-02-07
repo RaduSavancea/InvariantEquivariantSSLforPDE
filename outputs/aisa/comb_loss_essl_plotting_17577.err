@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/pde_inv_equiv_plots.py", line 278, in <module>
+    encoder, solver, cond_mlp = train()
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/pde_inv_equiv_plots.py", line 152, in train
+    train_loader = get_loader_ns(
+TypeError: get_loader_ns() missing 1 required positional argument: 'dataset_size'

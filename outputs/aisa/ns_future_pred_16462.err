@@ -1,0 +1,19 @@
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/Next_Step.py", line 232, in <module>
+    encoder, solver = train()
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/Next_Step.py", line 128, in train
+    NavierStokesDataset(DATA_ROOT, "train"),
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/Next_Step.py", line 46, in __init__
+    self.f = h5py.File(path, "r")
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/lib/python3.9/site-packages/h5py/_hl/files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/lib/python3.9/site-packages/h5py/_hl/files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 56, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 57, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets/navier_stokes.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

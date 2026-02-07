@@ -1,0 +1,36 @@
+Purging modules and activating Conda environment...
+/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/core/plugins.py:24: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Traceback (most recent call last):
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 593, in <module>
+    main(args)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 585, in main
+    run_submitit(args)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 575, in run_submitit
+    dist_url = get_init_file().as_uri()
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 506, in get_init_file
+    os.makedirs(str(get_shared_folder()), exist_ok=True)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 501, in get_shared_folder
+    raise RuntimeError("No shared folder available")
+RuntimeError: No shared folder available
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3548075
+Cluster: hk
+User/Group: st_ac148019/hk-project-pai00052
+Account: hk-project-pai00052
+State: FAILED (exit code 1)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0530
+CPU Utilized: 00:00:05
+CPU Efficiency: 0.05% of 02:42:08 core-walltime
+Job Wall-clock time: 00:01:04
+Starttime: Tue Oct  7 05:39:15 2025
+Endtime: Tue Oct  7 05:40:19 2025
+Memory Utilized: 669.58 MB
+Memory Efficiency: 0.53% of 124.00 GB (124.00 GB/node)
+Energy Consumed: 24009 Joule / 6.66916666666667 Watthours
+Average node power draw: 375.140625 Watt

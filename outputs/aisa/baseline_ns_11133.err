@@ -1,0 +1,27 @@
+/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/plugins.py:24: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+sbatch: error: Batch job submission failed: Invalid feature specification
+subprocess.CalledProcessError: Command '['sbatch', '/mnt/nfs/home/ac148019/SSLForPDEs/log/baseline_ns/.submission_file_37919d230b474c1684ed5b031a64a693.sh']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 599, in <module>
+    main(args)
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 591, in main
+    run_submitit(args)
+  File "/mnt/nfs/home/ac148019/SSLForPDEs/navier_stokes.py", line 585, in run_submitit
+    job = executor.submit(trainer)
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/core.py", line 735, in submit
+    job = self._internal_process_submissions([ds])[0]
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/auto/auto.py", line 218, in _internal_process_submissions
+    return self._executor._internal_process_submissions(delayed_submissions)
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/slurm/slurm.py", line 325, in _internal_process_submissions
+    return super()._internal_process_submissions(delayed_submissions)
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/core.py", line 912, in _internal_process_submissions
+    job = self._submit_command(self._submitit_command_str)
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/core.py", line 953, in _submit_command
+    output = utils.CommandFunction(command_list, verbose=False)()  # explicit errors
+  File "/mnt/nfs/home/ac148019/.conda/envs/ssl/lib/python3.9/site-packages/submitit/core/utils.py", line 359, in __call__
+    raise FailedJobError(stderr) from subprocess_error
+submitit.core.utils.FailedJobError: sbatch: error: Batch job submission failed: Invalid feature specification

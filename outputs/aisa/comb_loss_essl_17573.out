@@ -1,0 +1,125 @@
+==================================================
+Job name: comb_loss_essl
+Job ID:   17573
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Navier–Stokes future-state prediction
+---
+Started at Wed Jan 28 10:23:35 PM CET 2026
+---
+Starting Combined losses Train
+---
+Started at Wed Jan 28 10:23:35 PM CET 2026
+[CARE] Epoch 0 | Loss 87.1959
+[CARE] Epoch 1 | Loss 47.9984
+[CARE] Epoch 2 | Loss 47.9198
+[CARE] Epoch 3 | Loss 47.8751
+[CARE] Epoch 4 | Loss 47.8411
+[CARE] Epoch 5 | Loss 47.8293
+[CARE] Epoch 6 | Loss 47.8114
+[CARE] Epoch 7 | Loss 47.7861
+[CARE] Epoch 8 | Loss 47.7883
+[CARE] Epoch 9 | Loss 47.7706
+[CARE] Epoch 10 | Loss 47.7535
+[CARE] Epoch 11 | Loss 47.7419
+[CARE] Epoch 12 | Loss 47.7369
+[CARE] Epoch 13 | Loss 47.7232
+[CARE] Epoch 14 | Loss 47.7167
+[CARE] Epoch 15 | Loss 47.7078
+[CARE] Epoch 16 | Loss 47.7025
+[CARE] Epoch 17 | Loss 47.7024
+[CARE] Epoch 18 | Loss 47.6965
+[CARE] Epoch 19 | Loss 47.6896
+[CARE] Epoch 20 | Loss 47.6854
+[CARE] Epoch 21 | Loss 47.6800
+[CARE] Epoch 22 | Loss 47.6738
+[CARE] Epoch 23 | Loss 47.6718
+[CARE] Epoch 24 | Loss 47.6686
+[CARE] Epoch 25 | Loss 47.6699
+[CARE] Epoch 26 | Loss 47.6659
+[CARE] Epoch 27 | Loss 47.6591
+[CARE] Epoch 28 | Loss 47.6587
+[CARE] Epoch 29 | Loss 47.6575
+[CARE] Epoch 30 | Loss 47.6577
+[CARE] Epoch 31 | Loss 47.6546
+[CARE] Epoch 32 | Loss 47.6516
+[CARE] Epoch 33 | Loss 47.6535
+[CARE] Epoch 34 | Loss 47.6445
+[CARE] Epoch 35 | Loss 47.6454
+[CARE] Epoch 36 | Loss 47.6443
+[CARE] Epoch 37 | Loss 47.6437
+[CARE] Epoch 38 | Loss 47.6433
+[CARE] Epoch 39 | Loss 47.6403
+[CARE] Epoch 40 | Loss 47.6409
+[CARE] Epoch 41 | Loss 47.6394
+[CARE] Epoch 42 | Loss 47.6379
+[CARE] Epoch 43 | Loss 47.6343
+[CARE] Epoch 44 | Loss 47.6329
+[CARE] Epoch 45 | Loss 47.6378
+[CARE] Epoch 46 | Loss 47.6391
+[CARE] Epoch 47 | Loss 47.6304
+[CARE] Epoch 48 | Loss 47.6300
+[CARE] Epoch 49 | Loss 47.6319
+[CARE] Epoch 50 | Loss 47.6257
+[CARE] Epoch 51 | Loss 47.6259
+[CARE] Epoch 52 | Loss 47.6217
+[CARE] Epoch 53 | Loss 47.6206
+[CARE] Epoch 54 | Loss 47.6208
+[CARE] Epoch 55 | Loss 47.6215
+[CARE] Epoch 56 | Loss 47.6192
+[CARE] Epoch 57 | Loss 47.6219
+[CARE] Epoch 58 | Loss 47.6193
+[CARE] Epoch 59 | Loss 47.6163
+[REG] Epoch 0 | MSE 0.049720
+[REG] Epoch 1 | MSE 0.033175
+[REG] Epoch 2 | MSE 0.021701
+[REG] Epoch 3 | MSE 0.014490
+[REG] Epoch 4 | MSE 0.011104
+[REG] Epoch 5 | MSE 0.008545
+[REG] Epoch 6 | MSE 0.007825
+[REG] Epoch 7 | MSE 0.008390
+[REG] Epoch 8 | MSE 0.007922
+[REG] Epoch 9 | MSE 0.008271
+[REG] Epoch 10 | MSE 0.007091
+[REG] Epoch 11 | MSE 0.007263
+[REG] Epoch 12 | MSE 0.006972
+[REG] Epoch 13 | MSE 0.007138
+[REG] Epoch 14 | MSE 0.007347
+[REG] Epoch 15 | MSE 0.006462
+[REG] Epoch 16 | MSE 0.006475
+[REG] Epoch 17 | MSE 0.006663
+[REG] Epoch 18 | MSE 0.006632
+[REG] Epoch 19 | MSE 0.006632
+[REG] Epoch 20 | MSE 0.006406
+[REG] Epoch 21 | MSE 0.006539
+[REG] Epoch 22 | MSE 0.006382
+[REG] Epoch 23 | MSE 0.006536
+[REG] Epoch 24 | MSE 0.006078
+[REG] Epoch 25 | MSE 0.006576
+[REG] Epoch 26 | MSE 0.006671
+[REG] Epoch 27 | MSE 0.006529
+[REG] Epoch 28 | MSE 0.006330
+[REG] Epoch 29 | MSE 0.006398
+[REG] Epoch 30 | MSE 0.006334
+[REG] Epoch 31 | MSE 0.006418
+[REG] Epoch 32 | MSE 0.006164
+[REG] Epoch 33 | MSE 0.006171
+[REG] Epoch 34 | MSE 0.006506
+[REG] Epoch 35 | MSE 0.006157
+[REG] Epoch 36 | MSE 0.006407
+[REG] Epoch 37 | MSE 0.006234
+[REG] Epoch 38 | MSE 0.006484
+[REG] Epoch 39 | MSE 0.006414
+Finished at Thu Jan 29 07:38:44 AM CET 2026

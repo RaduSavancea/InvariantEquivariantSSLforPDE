@@ -1,0 +1,65 @@
+==================================================
+Job name: equiv_ns_ssl
+Job ID:   15799
+Node:     aisa-gpuB02.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting equivariant Navier–Stokes SSL training
+---
+Reached training at Fri Jan 16 10:21:58 AM CET 2026
+=== TRAINING SCRIPT STARTED ===
+[Epoch 0] SSL loss: 14.5203
+[Epoch 1] SSL loss: 13.8062
+[Epoch 2] SSL loss: 13.7084
+[Epoch 3] SSL loss: 13.2629
+[Epoch 4] SSL loss: 13.2469
+[Epoch 5] SSL loss: 12.8818
+[Epoch 6] SSL loss: 12.7868
+[Epoch 7] SSL loss: 12.6232
+[Epoch 8] SSL loss: 12.7812
+[Epoch 9] SSL loss: 12.4881
+[Epoch 10] SSL loss: 12.3814
+[Epoch 11] SSL loss: 12.4216
+[Epoch 12] SSL loss: 12.2589
+[Epoch 13] SSL loss: 12.2363
+[Epoch 14] SSL loss: 12.3598
+[Epoch 15] SSL loss: 12.1696
+[Epoch 16] SSL loss: 12.1096
+[Epoch 17] SSL loss: 11.9274
+[Epoch 18] SSL loss: 12.1648
+[Epoch 19] SSL loss: 11.8236
+[Epoch 20] SSL loss: 11.8035
+[Epoch 21] SSL loss: 11.9729
+[Epoch 22] SSL loss: 11.9150
+[Epoch 23] SSL loss: 11.9210
+[Epoch 24] SSL loss: 11.8018
+[Epoch 25] SSL loss: 11.8457
+[Epoch 26] SSL loss: 11.8044
+[Epoch 27] SSL loss: 11.8879
+[Epoch 28] SSL loss: 11.7463
+[Epoch 29] SSL loss: 11.6580
+[Epoch 30] SSL loss: 11.6334
+[Epoch 31] SSL loss: 11.6466
+[Epoch 32] SSL loss: 11.6507
+[Epoch 33] SSL loss: 11.6416
+[Epoch 34] SSL loss: 11.4888
+[Epoch 35] SSL loss: 11.5176
+[Epoch 36] SSL loss: 11.5729
+[Epoch 37] SSL loss: 11.5443
+[Epoch 38] SSL loss: 11.5265
+[Epoch 39] SSL loss: 11.5507
+Saved SSL encoder to runs/equiv_ns/checkpoints/encoder_ssl.pt
+Linear probe training complete.
+Saved linear probe to runs/equiv_ns/checkpoints/linear_probe.pt
+Training finished successfully.

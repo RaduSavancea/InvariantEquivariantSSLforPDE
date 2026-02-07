@@ -1,0 +1,119 @@
+==================================================
+Job name: hybrid_ns_future_pred
+Job ID:   17887
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Evaluation Hybrid
+---
+Started at Mon Feb  2 11:23:23 PM CET 2026
+
+=== Training one-step predictor ===
+[TS] Epoch 0 | Train MSE = 0.061866
+[TS] Epoch 1 | Train MSE = 0.051095
+[TS] Epoch 2 | Train MSE = 0.046285
+[TS] Epoch 3 | Train MSE = 0.044321
+[TS] Epoch 4 | Train MSE = 0.041981
+[TS] Epoch 5 | Train MSE = 0.039979
+[TS] Epoch 6 | Train MSE = 0.038453
+[TS] Epoch 7 | Train MSE = 0.038645
+[TS] Epoch 8 | Train MSE = 0.039169
+[TS] Epoch 9 | Train MSE = 0.037719
+[TS] Epoch 10 | Train MSE = 0.038506
+[TS] Epoch 11 | Train MSE = 0.035984
+[TS] Epoch 12 | Train MSE = 0.037251
+[TS] Epoch 13 | Train MSE = 0.036895
+[TS] Epoch 14 | Train MSE = 0.037958
+[TS] Epoch 15 | Train MSE = 0.036097
+[TS] Epoch 16 | Train MSE = 0.036877
+[TS] Epoch 17 | Train MSE = 0.036600
+[TS] Epoch 18 | Train MSE = 0.037041
+[TS] Epoch 19 | Train MSE = 0.036025
+[TS] Epoch 20 | Train MSE = 0.037155
+[TS] Epoch 21 | Train MSE = 0.036262
+[TS] Epoch 22 | Train MSE = 0.036421
+[TS] Epoch 23 | Train MSE = 0.036368
+[TS] Epoch 24 | Train MSE = 0.036031
+[TS] Epoch 25 | Train MSE = 0.035419
+[TS] Epoch 26 | Train MSE = 0.035503
+[TS] Epoch 27 | Train MSE = 0.034788
+[TS] Epoch 28 | Train MSE = 0.034835
+[TS] Epoch 29 | Train MSE = 0.035405
+[TS] Epoch 30 | Train MSE = 0.033968
+[TS] Epoch 31 | Train MSE = 0.034748
+[TS] Epoch 32 | Train MSE = 0.034394
+[TS] Epoch 33 | Train MSE = 0.035689
+[TS] Epoch 34 | Train MSE = 0.035259
+[TS] Epoch 35 | Train MSE = 0.034849
+[TS] Epoch 36 | Train MSE = 0.035055
+[TS] Epoch 37 | Train MSE = 0.035330
+[TS] Epoch 38 | Train MSE = 0.035028
+[TS] Epoch 39 | Train MSE = 0.035193
+
+=== Evaluating one-step predictor ===
+
+One-step TEST MSE: 0.031685
+
+=== Training regression head ===
+[REG] Epoch 0 | Val MSE = 0.257542
+[REG] Epoch 1 | Val MSE = 0.166862
+[REG] Epoch 2 | Val MSE = 0.107895
+[REG] Epoch 3 | Val MSE = 0.064346
+[REG] Epoch 4 | Val MSE = 0.044832
+[REG] Epoch 5 | Val MSE = 0.043933
+[REG] Epoch 6 | Val MSE = 0.041175
+[REG] Epoch 7 | Val MSE = 0.038049
+[REG] Epoch 8 | Val MSE = 0.039815
+[REG] Epoch 9 | Val MSE = 0.040348
+[REG] Epoch 10 | Val MSE = 0.039191
+[REG] Epoch 11 | Val MSE = 0.036108
+[REG] Epoch 12 | Val MSE = 0.035340
+[REG] Epoch 13 | Val MSE = 0.036976
+[REG] Epoch 14 | Val MSE = 0.036266
+[REG] Epoch 15 | Val MSE = 0.033329
+[REG] Epoch 16 | Val MSE = 0.038373
+[REG] Epoch 17 | Val MSE = 0.037110
+[REG] Epoch 18 | Val MSE = 0.036324
+[REG] Epoch 19 | Val MSE = 0.036549
+[REG] Epoch 20 | Val MSE = 0.030620
+[REG] Epoch 21 | Val MSE = 0.032727
+[REG] Epoch 22 | Val MSE = 0.030854
+[REG] Epoch 23 | Val MSE = 0.030728
+[REG] Epoch 24 | Val MSE = 0.030449
+[REG] Epoch 25 | Val MSE = 0.027862
+[REG] Epoch 26 | Val MSE = 0.028402
+[REG] Epoch 27 | Val MSE = 0.030018
+[REG] Epoch 28 | Val MSE = 0.026351
+[REG] Epoch 29 | Val MSE = 0.029526
+[REG] Epoch 30 | Val MSE = 0.025623
+[REG] Epoch 31 | Val MSE = 0.025913
+[REG] Epoch 32 | Val MSE = 0.027293
+[REG] Epoch 33 | Val MSE = 0.026672
+[REG] Epoch 34 | Val MSE = 0.027643
+[REG] Epoch 35 | Val MSE = 0.024835
+[REG] Epoch 36 | Val MSE = 0.024924
+[REG] Epoch 37 | Val MSE = 0.023718
+[REG] Epoch 38 | Val MSE = 0.025472
+[REG] Epoch 39 | Val MSE = 0.024655
+
+=== Evaluating regression (VAL) ===
+
+[REG] VAL MSE : 0.023992
+[REG] VAL RMSE: 0.154893
+
+=== Evaluating regression (TEST) ===
+
+[REG] TEST MSE : 0.028572
+[REG] TEST RMSE: 0.169031
+Finished at Mon Feb  2 11:35:56 PM CET 2026

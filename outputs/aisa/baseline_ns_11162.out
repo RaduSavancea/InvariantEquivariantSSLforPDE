@@ -1,0 +1,11 @@
+---
+Staging data...
+Job running on node: aisa-gpuB01.ki.uni-stuttgart.de
+Source (NFS) data path: datasets/NavierStokes-2D-conditoned
+Destination (local) data path: /tmp/dataset
+Data staging complete.
+---
+Starting Python training script...
+Submitted job_id: 11163
+Logs and checkpoints will be saved at: log/baseline_ns
+✅ Training finished.

@@ -1,0 +1,46 @@
+==================================================
+Job name: ns_future_pred
+Job ID:   17377
+Node:     aisa-gpuB02.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Navier–Stokes future-state prediction
+---
+Started at Mon Jan 26 11:41:16 PM CET 2026
+=== TRAINING SCRIPT STARTED ===
+[Epoch 0] Train block MSE: 51.169788
+[Epoch 1] Train block MSE: 0.269890
+[Epoch 2] Train block MSE: 0.170185
+[Epoch 3] Train block MSE: 0.150687
+[Epoch 4] Train block MSE: 0.139833
+[Epoch 5] Train block MSE: 0.133184
+[Epoch 6] Train block MSE: 0.128904
+[Epoch 7] Train block MSE: 0.128059
+[Epoch 8] Train block MSE: 0.129432
+[Epoch 9] Train block MSE: 0.125563
+[Epoch 10] Train block MSE: 0.129068
+[Epoch 11] Train block MSE: 0.126687
+[Epoch 12] Train block MSE: 0.130149
+[Epoch 13] Train block MSE: 0.134073
+[Epoch 14] Train block MSE: 0.134419
+[Epoch 15] Train block MSE: 0.126401
+[Epoch 16] Train block MSE: 0.132070
+[Epoch 17] Train block MSE: 0.126386
+[Epoch 18] Train block MSE: 0.144193
+[Epoch 19] Train block MSE: 0.132664
+=================================
+Block prediction MSE  = 0.123954
+Block prediction NMSE = 0.000141
+=================================
+Finished at Mon Jan 26 11:54:23 PM CET 2026

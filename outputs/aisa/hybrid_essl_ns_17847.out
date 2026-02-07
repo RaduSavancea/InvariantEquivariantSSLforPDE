@@ -1,0 +1,81 @@
+==================================================
+Job name: hybrid_essl_ns
+Job ID:   17847
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Hybrid E-SSL
+---
+Started at Mon Feb  2 06:06:31 PM CET 2026
+[Epoch 0] loss=59.5471
+[Epoch 1] loss=46.6353
+[Epoch 2] loss=46.5050
+[Epoch 3] loss=46.4386
+[Epoch 4] loss=46.3936
+[Epoch 5] loss=46.3781
+[Epoch 6] loss=46.3178
+[Epoch 7] loss=46.2695
+[Epoch 8] loss=46.2180
+[Epoch 9] loss=46.1686
+[Epoch 10] loss=46.1361
+[Epoch 11] loss=46.1106
+[Epoch 12] loss=46.1044
+[Epoch 13] loss=46.0843
+[Epoch 14] loss=46.0714
+[Epoch 15] loss=46.0610
+[Epoch 16] loss=46.0541
+[Epoch 17] loss=46.0580
+[Epoch 18] loss=46.0513
+[Epoch 19] loss=46.0430
+[Epoch 20] loss=46.0455
+[Epoch 21] loss=46.0373
+[Epoch 22] loss=46.0400
+[Epoch 23] loss=46.0330
+[Epoch 24] loss=46.0450
+[Epoch 25] loss=46.0440
+[Epoch 26] loss=46.0455
+[Epoch 27] loss=46.0361
+[Epoch 28] loss=46.0377
+[Epoch 29] loss=46.0370
+[Epoch 30] loss=46.0388
+[Epoch 31] loss=46.0430
+[Epoch 32] loss=46.0586
+[Epoch 33] loss=46.0466
+[Epoch 34] loss=46.0391
+[Epoch 35] loss=46.0303
+[Epoch 36] loss=46.0530
+[Epoch 37] loss=46.0366
+[Epoch 38] loss=46.0484
+[Epoch 39] loss=46.0301
+[Epoch 40] loss=46.0378
+[Epoch 41] loss=46.0212
+[Epoch 42] loss=46.0198
+[Epoch 43] loss=46.0175
+[Epoch 44] loss=46.0215
+[Epoch 45] loss=46.0167
+[Epoch 46] loss=46.0167
+[Epoch 47] loss=46.0199
+[Epoch 48] loss=46.0184
+[Epoch 49] loss=46.0137
+[Epoch 50] loss=46.0129
+[Epoch 51] loss=46.0194
+[Epoch 52] loss=46.0201
+[Epoch 53] loss=46.0064
+[Epoch 54] loss=46.0090
+[Epoch 55] loss=46.0045
+[Epoch 56] loss=46.0014
+[Epoch 57] loss=46.0014
+[Epoch 58] loss=46.0067
+[Epoch 59] loss=46.0060
+Finished at Mon Feb  2 10:22:30 PM CET 2026

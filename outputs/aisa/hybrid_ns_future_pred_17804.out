@@ -1,0 +1,82 @@
+==================================================
+Job name: hybrid_ns_future_pred
+Job ID:   17804
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Evaluation Hybrid
+---
+Started at Mon Feb  2 01:32:41 PM CET 2026
+
+=== Training one-step predictor ===
+[TS] Epoch 0 | Train MSE = 0.059690
+[TS] Epoch 1 | Train MSE = 0.046102
+[TS] Epoch 2 | Train MSE = 0.041536
+[TS] Epoch 3 | Train MSE = 0.038529
+[TS] Epoch 4 | Train MSE = 0.039539
+[TS] Epoch 5 | Train MSE = 0.038414
+[TS] Epoch 6 | Train MSE = 0.039220
+[TS] Epoch 7 | Train MSE = 0.038853
+[TS] Epoch 8 | Train MSE = 0.037544
+[TS] Epoch 9 | Train MSE = 0.036252
+[TS] Epoch 10 | Train MSE = 0.037333
+[TS] Epoch 11 | Train MSE = 0.036583
+[TS] Epoch 12 | Train MSE = 0.035743
+[TS] Epoch 13 | Train MSE = 0.035572
+[TS] Epoch 14 | Train MSE = 0.036042
+[TS] Epoch 15 | Train MSE = 0.035558
+[TS] Epoch 16 | Train MSE = 0.036981
+[TS] Epoch 17 | Train MSE = 0.035861
+[TS] Epoch 18 | Train MSE = 0.035725
+[TS] Epoch 19 | Train MSE = 0.035040
+
+=== Evaluating one-step predictor (TEST) ===
+
+===== TIME-STEPPING TEST RESULTS =====
+One-step TEST MSE: 0.032262
+Plots saved to: results/plots
+====================================
+
+=== Training regression head ===
+[REG] Epoch 0 | MSE = 0.363887
+[REG] Epoch 1 | MSE = 0.276706
+[REG] Epoch 2 | MSE = 0.192272
+[REG] Epoch 3 | MSE = 0.133399
+[REG] Epoch 4 | MSE = 0.103819
+[REG] Epoch 5 | MSE = 0.090836
+[REG] Epoch 6 | MSE = 0.074857
+[REG] Epoch 7 | MSE = 0.080993
+[REG] Epoch 8 | MSE = 0.071771
+[REG] Epoch 9 | MSE = 0.070446
+[REG] Epoch 10 | MSE = 0.072178
+[REG] Epoch 11 | MSE = 0.074717
+[REG] Epoch 12 | MSE = 0.068708
+[REG] Epoch 13 | MSE = 0.068926
+[REG] Epoch 14 | MSE = 0.067043
+[REG] Epoch 15 | MSE = 0.065302
+[REG] Epoch 16 | MSE = 0.065805
+[REG] Epoch 17 | MSE = 0.067448
+[REG] Epoch 18 | MSE = 0.062295
+[REG] Epoch 19 | MSE = 0.062733
+[REG] Epoch 20 | MSE = 0.062242
+[REG] Epoch 21 | MSE = 0.057140
+[REG] Epoch 22 | MSE = 0.057554
+[REG] Epoch 23 | MSE = 0.057744
+[REG] Epoch 24 | MSE = 0.053066
+[REG] Epoch 25 | MSE = 0.048877
+[REG] Epoch 26 | MSE = 0.052144
+[REG] Epoch 27 | MSE = 0.053088
+[REG] Epoch 28 | MSE = 0.049685
+[REG] Epoch 29 | MSE = 0.053388
+Finished at Mon Feb  2 01:39:41 PM CET 2026

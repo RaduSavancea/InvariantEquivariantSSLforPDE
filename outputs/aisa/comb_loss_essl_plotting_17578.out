@@ -1,0 +1,39 @@
+==================================================
+Job name: comb_loss_essl_plotting
+Job ID:   17578
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Navier–Stokes future-state prediction
+---
+Started at Wed Jan 28 11:17:17 PM CET 2026
+---
+Starting Combined losses Train Plots
+---
+Started at Wed Jan 28 11:17:17 PM CET 2026
+[Epoch 0] Train MSE: 0.049393
+[Epoch 1] Train MSE: 0.039772
+[Epoch 2] Train MSE: 0.037883
+[Epoch 3] Train MSE: 0.037479
+[Epoch 4] Train MSE: 0.036633
+[Epoch 5] Train MSE: 0.036036
+[Epoch 6] Train MSE: 0.036012
+[Epoch 7] Train MSE: 0.035079
+[Epoch 8] Train MSE: 0.035667
+[Epoch 9] Train MSE: 0.034609
+===================================
+Test MSE (rollout): 885.405257
+Plots saved to: care_nextstep_results/plots
+===================================
+Finished at Wed Jan 28 11:21:26 PM CET 2026

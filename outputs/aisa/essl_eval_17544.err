@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/essl_Eval.py", line 5, in <module>
+    from essl import Encoder, EquivariantPredictor, ESSLDataset
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/essl.py", line 5, in <module>
+    from essl import Encoder, EquivariantPredictor, ESSLDataset
+ImportError: cannot import name 'Encoder' from partially initialized module 'essl' (most likely due to a circular import) (/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/essl.py)

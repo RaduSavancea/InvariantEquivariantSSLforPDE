@@ -1,0 +1,49 @@
+Purging modules and activating Conda environment...
+/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/core/plugins.py:24: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+sbatch: error: Batch job submission failed: Invalid feature specification
+subprocess.CalledProcessError: Command '['sbatch', '/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/log/baseline_ns/.submission_file_7dbcc1b95a8a492b82e6d8554cedd36f.sh']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 593, in <module>
+    main(args)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 585, in main
+    run_submitit(args)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/SSLForPDEs/navier_stokes.py", line 578, in run_submitit
+    job = executor.submit(trainer)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/core/core.py", line 735, in submit
+    job = self._internal_process_submissions([ds])[0]
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/auto/auto.py", line 218, in _internal_process_submissions
+    return self._executor._internal_process_submissions(delayed_submissions)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/slurm/slurm.py", line 325, in _internal_process_submissions
+    return super()._internal_process_submissions(delayed_submissions)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/core/core.py", line 912, in _internal_process_submissions
+    job = self._submit_command(self._submitit_command_str)
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/core/core.py", line 953, in _submit_command
+    output = utils.CommandFunction(command_list, verbose=False)()  # explicit errors
+  File "/hkfs/home/project/hk-project-pai00052/st_ac148019/miniforge3/envs/ssl/lib/python3.9/site-packages/submitit/core/utils.py", line 359, in __call__
+    raise FailedJobError(stderr) from subprocess_error
+submitit.core.utils.FailedJobError: sbatch: error: Batch job submission failed: Invalid feature specification
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3550456
+Cluster: hk
+User/Group: st_ac148019/hk-project-pai00052
+Account: hk-project-pai00052
+State: FAILED (exit code 1)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0726
+CPU Utilized: 00:00:07
+CPU Efficiency: 0.07% of 02:44:40 core-walltime
+Job Wall-clock time: 00:01:05
+Starttime: Tue Oct  7 20:09:59 2025
+Endtime: Tue Oct  7 20:11:04 2025
+Memory Utilized: 677.54 MB
+Memory Efficiency: 0.53% of 124.00 GB (124.00 GB/node)
+Energy Consumed: 25518 Joule / 7.08833333333333 Watthours
+Average node power draw: 392.584615384615 Watt

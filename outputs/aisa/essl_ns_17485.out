@@ -1,0 +1,131 @@
+==================================================
+Job name: essl_ns
+Job ID:   17485
+Node:     aisa-gpuB03.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Navier–Stokes future-state prediction
+---
+Started at Tue Jan 27 10:47:15 PM CET 2026
+---
+Starting E-SSL + regression training
+---
+Started at Tue Jan 27 10:47:15 PM CET 2026
+[E-SSL] Epoch 0 Loss: 82.2683
+[E-SSL] Epoch 1 Loss: 47.8852
+[E-SSL] Epoch 2 Loss: 47.8316
+[E-SSL] Epoch 3 Loss: 47.8022
+[E-SSL] Epoch 4 Loss: 47.7948
+[E-SSL] Epoch 5 Loss: 47.7607
+[E-SSL] Epoch 6 Loss: 47.7580
+[E-SSL] Epoch 7 Loss: 47.7507
+[E-SSL] Epoch 8 Loss: 47.7465
+[E-SSL] Epoch 9 Loss: 47.7338
+[E-SSL] Epoch 10 Loss: 47.7283
+[E-SSL] Epoch 11 Loss: 47.7248
+[E-SSL] Epoch 12 Loss: 47.7154
+[E-SSL] Epoch 13 Loss: 47.7166
+[E-SSL] Epoch 14 Loss: 47.7063
+[E-SSL] Epoch 15 Loss: 47.7033
+[E-SSL] Epoch 16 Loss: 47.7019
+[E-SSL] Epoch 17 Loss: 47.6981
+[E-SSL] Epoch 18 Loss: 47.6918
+[E-SSL] Epoch 19 Loss: 47.6952
+[E-SSL] Epoch 20 Loss: 47.6891
+[E-SSL] Epoch 21 Loss: 47.6906
+[E-SSL] Epoch 22 Loss: 47.6865
+[E-SSL] Epoch 23 Loss: 47.6790
+[E-SSL] Epoch 24 Loss: 47.6793
+[E-SSL] Epoch 25 Loss: 47.6764
+[E-SSL] Epoch 26 Loss: 47.6736
+[E-SSL] Epoch 27 Loss: 47.6753
+[E-SSL] Epoch 28 Loss: 47.6719
+[E-SSL] Epoch 29 Loss: 47.6730
+[E-SSL] Epoch 30 Loss: 47.6746
+[E-SSL] Epoch 31 Loss: 47.6702
+[E-SSL] Epoch 32 Loss: 47.6684
+[E-SSL] Epoch 33 Loss: 47.6658
+[E-SSL] Epoch 34 Loss: 47.6666
+[E-SSL] Epoch 35 Loss: 47.6650
+[E-SSL] Epoch 36 Loss: 47.6629
+[E-SSL] Epoch 37 Loss: 47.6642
+[E-SSL] Epoch 38 Loss: 47.6617
+[E-SSL] Epoch 39 Loss: 47.6592
+[E-SSL] Epoch 40 Loss: 47.6581
+[E-SSL] Epoch 41 Loss: 47.6548
+[E-SSL] Epoch 42 Loss: 47.6567
+[E-SSL] Epoch 43 Loss: 47.6550
+[E-SSL] Epoch 44 Loss: 47.6536
+[E-SSL] Epoch 45 Loss: 47.6500
+[E-SSL] Epoch 46 Loss: 47.6529
+[E-SSL] Epoch 47 Loss: 47.6517
+[E-SSL] Epoch 48 Loss: 47.6511
+[E-SSL] Epoch 49 Loss: 47.6523
+[E-SSL] Epoch 50 Loss: 47.6492
+[E-SSL] Epoch 51 Loss: 47.6463
+[E-SSL] Epoch 52 Loss: 47.6438
+[E-SSL] Epoch 53 Loss: 47.6455
+[E-SSL] Epoch 54 Loss: 47.6471
+[E-SSL] Epoch 55 Loss: 47.6430
+[E-SSL] Epoch 56 Loss: 47.6416
+[E-SSL] Epoch 57 Loss: 47.6443
+[E-SSL] Epoch 58 Loss: 47.6413
+[E-SSL] Epoch 59 Loss: 47.6377
+Saved E-SSL checkpoint
+[REG] Epoch 0 MSE: 0.991618
+[REG] Epoch 1 MSE: 0.713734
+[REG] Epoch 2 MSE: 0.571561
+[REG] Epoch 3 MSE: 0.386127
+[REG] Epoch 4 MSE: 0.282977
+[REG] Epoch 5 MSE: 0.228956
+[REG] Epoch 6 MSE: 0.198123
+[REG] Epoch 7 MSE: 0.169835
+[REG] Epoch 8 MSE: 0.146121
+[REG] Epoch 9 MSE: 0.141305
+[REG] Epoch 10 MSE: 0.131661
+[REG] Epoch 11 MSE: 0.107680
+[REG] Epoch 12 MSE: 0.102481
+[REG] Epoch 13 MSE: 0.085011
+[REG] Epoch 14 MSE: 0.081459
+[REG] Epoch 15 MSE: 0.076201
+[REG] Epoch 16 MSE: 0.061741
+[REG] Epoch 17 MSE: 0.064135
+[REG] Epoch 18 MSE: 0.058073
+[REG] Epoch 19 MSE: 0.051757
+[REG] Epoch 20 MSE: 0.050194
+[REG] Epoch 21 MSE: 0.044642
+[REG] Epoch 22 MSE: 0.037704
+[REG] Epoch 23 MSE: 0.036933
+[REG] Epoch 24 MSE: 0.033669
+[REG] Epoch 25 MSE: 0.033326
+[REG] Epoch 26 MSE: 0.030085
+[REG] Epoch 27 MSE: 0.025960
+[REG] Epoch 28 MSE: 0.025366
+[REG] Epoch 29 MSE: 0.022796
+[REG] Epoch 30 MSE: 0.021273
+[REG] Epoch 31 MSE: 0.021538
+[REG] Epoch 32 MSE: 0.020973
+[REG] Epoch 33 MSE: 0.018386
+[REG] Epoch 34 MSE: 0.017074
+[REG] Epoch 35 MSE: 0.017496
+[REG] Epoch 36 MSE: 0.015565
+[REG] Epoch 37 MSE: 0.016237
+[REG] Epoch 38 MSE: 0.015939
+[REG] Epoch 39 MSE: 0.014811
+Saved regression head to regression_head.pt
+Regression Head Evaluation (TEST)
+MSE  = 0.014770
+RMSE = 0.121533
+R²   = -2.4628
+Finished at Wed Jan 28 04:22:41 AM CET 2026

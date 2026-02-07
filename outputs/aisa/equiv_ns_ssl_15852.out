@@ -1,0 +1,125 @@
+==================================================
+Job name: equiv_ns_ssl
+Job ID:   15852
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting equivariant Navier–Stokes SSL training
+---
+Reached training at Fri Jan 16 11:27:16 PM CET 2026
+=== TRAINING SCRIPT STARTED ===
+[Epoch 0] SSL loss: 14.5359
+[Epoch 1] SSL loss: 13.9754
+[Epoch 2] SSL loss: 13.7015
+[Epoch 3] SSL loss: 13.5493
+[Epoch 4] SSL loss: 13.1528
+[Epoch 5] SSL loss: 13.0380
+[Epoch 6] SSL loss: 12.9613
+[Epoch 7] SSL loss: 12.6151
+[Epoch 8] SSL loss: 12.6773
+[Epoch 9] SSL loss: 12.4305
+[Epoch 10] SSL loss: 12.4993
+[Epoch 11] SSL loss: 12.3429
+[Epoch 12] SSL loss: 12.3879
+[Epoch 13] SSL loss: 12.3763
+[Epoch 14] SSL loss: 12.1872
+[Epoch 15] SSL loss: 12.0624
+[Epoch 16] SSL loss: 12.1570
+[Epoch 17] SSL loss: 12.1510
+[Epoch 18] SSL loss: 11.9295
+[Epoch 19] SSL loss: 11.9684
+[Epoch 20] SSL loss: 11.8914
+[Epoch 21] SSL loss: 11.8911
+[Epoch 22] SSL loss: 11.9046
+[Epoch 23] SSL loss: 11.7841
+[Epoch 24] SSL loss: 11.8011
+[Epoch 25] SSL loss: 11.7177
+[Epoch 26] SSL loss: 11.7375
+[Epoch 27] SSL loss: 11.8087
+[Epoch 28] SSL loss: 11.7786
+[Epoch 29] SSL loss: 11.7567
+[Epoch 30] SSL loss: 11.7478
+[Epoch 31] SSL loss: 11.6680
+[Epoch 32] SSL loss: 11.6629
+[Epoch 33] SSL loss: 11.5390
+[Epoch 34] SSL loss: 11.8672
+[Epoch 35] SSL loss: 11.6288
+[Epoch 36] SSL loss: 11.5853
+[Epoch 37] SSL loss: 11.4821
+[Epoch 38] SSL loss: 11.4950
+[Epoch 39] SSL loss: 11.4293
+[Epoch 40] SSL loss: 11.5357
+[Epoch 41] SSL loss: 11.3522
+[Epoch 42] SSL loss: 11.4618
+[Epoch 43] SSL loss: 11.5432
+[Epoch 44] SSL loss: 11.5558
+[Epoch 45] SSL loss: 11.4964
+[Epoch 46] SSL loss: 11.5320
+[Epoch 47] SSL loss: 11.5040
+[Epoch 48] SSL loss: 11.3780
+[Epoch 49] SSL loss: 11.2865
+[Epoch 50] SSL loss: 11.3701
+[Epoch 51] SSL loss: 11.2915
+[Epoch 52] SSL loss: 11.1991
+[Epoch 53] SSL loss: 11.3656
+[Epoch 54] SSL loss: 11.3222
+[Epoch 55] SSL loss: 11.3647
+[Epoch 56] SSL loss: 11.3265
+[Epoch 57] SSL loss: 11.3877
+[Epoch 58] SSL loss: 11.1800
+[Epoch 59] SSL loss: 11.4549
+[Epoch 60] SSL loss: 11.3580
+[Epoch 61] SSL loss: 11.1844
+[Epoch 62] SSL loss: 11.1935
+[Epoch 63] SSL loss: 11.2863
+[Epoch 64] SSL loss: 11.3448
+[Epoch 65] SSL loss: 11.2634
+[Epoch 66] SSL loss: 11.2377
+[Epoch 67] SSL loss: 11.3401
+[Epoch 68] SSL loss: 11.2100
+[Epoch 69] SSL loss: 11.2074
+[Epoch 70] SSL loss: 11.3383
+[Epoch 71] SSL loss: 11.2797
+[Epoch 72] SSL loss: 11.2534
+[Epoch 73] SSL loss: 11.1982
+[Epoch 74] SSL loss: 11.1358
+[Epoch 75] SSL loss: 11.2081
+[Epoch 76] SSL loss: 11.2194
+[Epoch 77] SSL loss: 11.1982
+[Epoch 78] SSL loss: 11.1772
+[Epoch 79] SSL loss: 11.2077
+[Epoch 80] SSL loss: 11.2144
+[Epoch 81] SSL loss: 11.2157
+[Epoch 82] SSL loss: 11.1324
+[Epoch 83] SSL loss: 11.2469
+[Epoch 84] SSL loss: 11.1139
+[Epoch 85] SSL loss: 11.1267
+[Epoch 86] SSL loss: 11.2663
+[Epoch 87] SSL loss: 11.1925
+[Epoch 88] SSL loss: 11.1293
+[Epoch 89] SSL loss: 11.2530
+[Epoch 90] SSL loss: 11.1833
+[Epoch 91] SSL loss: 11.2165
+[Epoch 92] SSL loss: 11.1331
+[Epoch 93] SSL loss: 11.2009
+[Epoch 94] SSL loss: 11.2046
+[Epoch 95] SSL loss: 11.2561
+[Epoch 96] SSL loss: 11.2308
+[Epoch 97] SSL loss: 11.1517
+[Epoch 98] SSL loss: 11.1280
+[Epoch 99] SSL loss: 11.1457
+Saved SSL encoder to runs/equiv_ns/checkpoints/encoder_ssl.pt
+Linear probe training complete.
+Saved linear probe to runs/equiv_ns/checkpoints/linear_probe.pt
+Training finished successfully.

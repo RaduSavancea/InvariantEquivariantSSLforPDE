@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/Next_Step.py", line 20, in <module>
+    PLOT_DIR.mkdir(exist_ok=True)
+AttributeError: 'str' object has no attribute 'mkdir'

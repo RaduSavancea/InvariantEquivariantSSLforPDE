@@ -1,0 +1,38 @@
+==================================================
+Job name: essl_ns
+Job ID:   17044
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Navier–Stokes future-state prediction
+---
+Started at Sun Jan 25 09:09:14 PM CET 2026
+---
+Starting E-SSL + regression training
+---
+Started at Sun Jan 25 09:09:14 PM CET 2026
+[E-SSL] Epoch 0 Loss: 128.6093
+[E-SSL] Epoch 1 Loss: 47.5580
+[E-SSL] Epoch 2 Loss: 47.1247
+[E-SSL] Epoch 3 Loss: 47.0425
+[E-SSL] Epoch 4 Loss: 47.0059
+[E-SSL] Epoch 5 Loss: 46.9679
+[E-SSL] Epoch 6 Loss: 46.9213
+[E-SSL] Epoch 7 Loss: 46.9199
+[E-SSL] Epoch 8 Loss: 46.8718
+[E-SSL] Epoch 9 Loss: 46.8532
+[E-SSL] Epoch 10 Loss: 46.8333
+[E-SSL] Epoch 11 Loss: 46.8075
+[E-SSL] Epoch 12 Loss: 46.7993
+[E-SSL] Epoch 13 Loss: 46.7748

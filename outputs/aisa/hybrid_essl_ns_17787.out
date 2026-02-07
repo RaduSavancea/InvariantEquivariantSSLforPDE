@@ -1,0 +1,81 @@
+==================================================
+Job name: hybrid_essl_ns
+Job ID:   17787
+Node:     aisa-gpuB01.ki.uni-stuttgart.de
+GPUs:     1
+==================================================
+Using Python:
+/mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/.conda/bin/python
+Torch: 2.8.0+cu128
+CUDA available: True
+---
+Staging dataset
+From: /mnt/nfs/home/st195720/SSLPDEs/SSLForPDEs/datasets
+To:   /tmp/datasets
+---
+Data staging complete.
+---
+Starting Hybrid E-SSL
+---
+Started at Sun Feb  1 07:33:09 PM CET 2026
+[Epoch 0] train=57.2222 | val=382.8570
+[Epoch 1] train=46.9462 | val=484.5295
+[Epoch 2] train=46.8430 | val=464.0858
+[Epoch 3] train=46.7584 | val=463.7856
+[Epoch 4] train=46.7129 | val=409.5950
+[Epoch 5] train=46.6815 | val=427.1302
+[Epoch 6] train=46.6302 | val=366.6451
+[Epoch 7] train=46.5995 | val=331.9044
+[Epoch 8] train=46.5762 | val=326.7595
+[Epoch 9] train=46.5467 | val=286.2296
+[Epoch 10] train=46.5257 | val=293.5439
+[Epoch 11] train=46.5132 | val=332.0517
+[Epoch 12] train=46.4868 | val=270.9425
+[Epoch 13] train=46.4803 | val=253.4582
+[Epoch 14] train=46.4649 | val=328.3190
+[Epoch 15] train=46.4610 | val=225.4153
+[Epoch 16] train=46.4537 | val=277.6775
+[Epoch 17] train=46.4550 | val=233.6071
+[Epoch 18] train=46.4449 | val=240.4154
+[Epoch 19] train=46.4375 | val=207.6368
+[Epoch 20] train=46.4206 | val=245.9300
+[Epoch 21] train=46.4195 | val=174.5423
+[Epoch 22] train=46.4194 | val=170.2414
+[Epoch 23] train=46.4120 | val=174.2163
+[Epoch 24] train=46.4158 | val=193.1949
+[Epoch 25] train=46.4056 | val=209.2633
+[Epoch 26] train=46.4041 | val=192.5882
+[Epoch 27] train=46.4032 | val=202.1465
+[Epoch 28] train=46.3908 | val=182.6620
+[Epoch 29] train=46.3964 | val=209.7402
+[Epoch 30] train=46.3924 | val=119.8494
+[Epoch 31] train=46.3928 | val=79.0268
+[Epoch 32] train=46.3814 | val=172.5518
+[Epoch 33] train=46.3829 | val=210.3033
+[Epoch 34] train=46.3815 | val=106.4704
+[Epoch 35] train=46.3727 | val=105.6725
+[Epoch 36] train=46.3719 | val=110.6196
+[Epoch 37] train=46.3755 | val=99.8114
+[Epoch 38] train=46.3609 | val=148.8450
+[Epoch 39] train=46.3605 | val=103.8658
+[Epoch 40] train=46.3625 | val=67.1508
+[Epoch 41] train=46.3472 | val=67.5748
+[Epoch 42] train=46.3491 | val=82.2501
+[Epoch 43] train=46.3417 | val=79.1034
+[Epoch 44] train=46.3367 | val=98.7667
+[Epoch 45] train=46.3370 | val=81.5323
+[Epoch 46] train=46.3323 | val=72.4920
+[Epoch 47] train=46.3155 | val=110.5405
+[Epoch 48] train=46.3211 | val=84.6494
+[Epoch 49] train=46.3077 | val=135.5783
+[Epoch 50] train=46.2986 | val=70.2299
+[Epoch 51] train=46.2904 | val=108.4562
+[Epoch 52] train=46.2737 | val=63.7660
+[Epoch 53] train=46.2592 | val=69.5359
+[Epoch 54] train=46.2636 | val=117.9006
+[Epoch 55] train=46.2904 | val=93.0094
+[Epoch 56] train=46.2597 | val=63.2343
+[Epoch 57] train=46.2335 | val=73.3441
+[Epoch 58] train=46.2402 | val=85.1888
+[Epoch 59] train=46.2304 | val=63.5989
+Finished at Mon Feb  2 03:09:58 AM CET 2026
